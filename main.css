@@ -52,29 +52,60 @@ table {
 
 /* start of my code                                       */
 
+html { 
+  background: url(Images/headerM.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #container {
-	display: block;
-	margin: 0px auto;
-	width: 1020px;
+	min-width: 960px;
+	min-height: 400px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 header {
 	position: relative;
-	margin: -250px auto 0px auto;
-}	
-
-header img {
-	width: 1020px;
+	height: 300px;
 }
 
 h1 {
 	position: absolute;
-	top: 295px;
-	left: 275px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 90px;
+	top: 50px;
+	right: 50px;
+	font-size: 130px;
 	color: black;
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: uppercase;
+}
+
+#content {
+	display: block;
+	margin: 0px auto;
+}
+
+h4 {
+	text-align: center;
+	font-size: 22px;
+}
+
+form {
+	margin: 50px auto;
+}
+
+input {
+	display: block;
+	margin: 10px auto;
+	
+}
+
+input[type="text"] {
+	width: 200px;
+}
+
+input[type="submit"] {
+	width: 100px;
 }
 
